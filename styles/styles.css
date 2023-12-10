@@ -1,5 +1,52 @@
-body {
+html * {
   margin: 0px;
+}
+
+.navbar-wrapper {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.navbar-wrapper .logo {
+  margin-left: 40px;
+}
+.navbar-wrapper .navbar {
+  justify-content: flex-end;
+  align-items: center;
+  height: 100px;
+}
+.navbar-wrapper .navbar a {
+  padding-right: 40px;
+  text-decoration: none;
+}
+
+.hero-section-wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 200px;
+}
+.hero-section-wrapper .certificates-top-row-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  grid-column: 2/6;
+}
+.hero-section-wrapper .hero-image-wrapper {
+  grid-column: 2/6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-section-wrapper .hero-image-wrapper img {
+  height: 250px;
+}
+.hero-section-wrapper .certificates-bottom-row-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  grid-column: 2/6;
 }
 
 /*# sourceMappingURL=styles.css.map */
