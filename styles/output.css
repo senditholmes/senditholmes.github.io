@@ -558,6 +558,22 @@ video {
   display: flex;
 }
 
+.h-dvh {
+  height: 100dvh;
+}
+
+.w-dvw {
+  width: 100dvw;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
 .content-center {
   align-content: center;
 }
@@ -568,4 +584,12 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
